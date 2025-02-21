@@ -1,10 +1,13 @@
 import React from 'react'
 import './Header.css'
+import Logo from './Logo'
 
 const Header = () => {
   return (
    <header id='header' className='header fixed-top d-flex align-items-center'>
-header
+<Logo />
+{/* {search bar} */}
+{/* {nav} */}
    </header>
   )
 }
